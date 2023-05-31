@@ -51,7 +51,7 @@ const Status = () => {
               marginHorizontal={sizes.sm}
               width={64}
               height={64}
-              color={colors.secondary}
+              color={colors.primaryq}
               >
               <Image
                 height={24}
@@ -71,7 +71,7 @@ const Status = () => {
                 marginHorizontal={sizes.sm}
                 width={32}
                 height={32}
-                color={colors.dark}>
+                color={colors.primaryDark}>
                   <Text p size={12} margin={0} lineHeight={0} color={colors.white}>SC</Text>
                 </Block>
             </Block>
@@ -96,11 +96,11 @@ const Status = () => {
                 width={24}
                 radius={0}
                 source={assets.grid}
-                color={colors.white}
+                color={colors.icon}
               />
             </Block>
             <Text p size={12} margin={0} lineHeight={0}>Grid</Text>
-            <Text p size={9}>400W</Text>
+            <Text p size={9}>-</Text>
           </Block>
 
           <Block align="center">
@@ -113,7 +113,7 @@ const Status = () => {
               marginHorizontal={sizes.sm}
               width={64}
               height={64}
-              color={colors.secondary}
+              color={colors.primary}
               >
               <Image
                 height={24}
@@ -140,15 +140,15 @@ const Status = () => {
         overflow="hidden"
         tint={colors.blurTint}
         justify="space-evenly"
-        marginHorizontal={sizes.sm}
+        marginHorizontal={sizes.xl}
         marginTop={-sizes.sm}
         paddingVertical={sizes.sm}
         renderToHardwareTextureAndroid>
-        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs}></Block>
-        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs}></Block>
-        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs}></Block>
-        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs}></Block>
-        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs}></Block>
+        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs} radius={sizes.sm} tint={0.5}></Block>
+        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs} radius={sizes.sm}></Block>
+        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs} radius={sizes.sm}></Block>
+        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs} radius={sizes.sm}></Block>
+        <Block color={colors.primary} height={sizes.xs} marginHorizontal={sizes.xs} radius={sizes.sm}></Block>
       </Block>
 
       <Block
@@ -157,11 +157,11 @@ const Status = () => {
         <Block flex={0}>
           <Block flex={0} align="center">
               <Image
-                width={350}
-                height={350}
+                width={400}
+                height={300}
                 radius={0}
                 marginBottom={sizes.sm}
-                source={assets.LPS}
+                source={assets.LPSNew}
               />
           </Block>
         </Block>
@@ -195,11 +195,11 @@ const Status = () => {
                 <Text p size={12} semibold color={colors.white}>12 V</Text>
                 
               </Block>
-              <Text size={10}>300W</Text>
+              <Text size={10}>-</Text>
             </Block>
             
             <Block align="center">
-              <Text h2 semibold>96%</Text>
+              <Text h2 semibold>-</Text>
             </Block>
 
             <Block align="center">
@@ -212,11 +212,10 @@ const Status = () => {
                 marginHorizontal={sizes.sm}
                 width={64}
                 height={64}
-                color={colors.secondary}
+                color={colors.primary}
                 >
                 <Text p size={12} semibold>230 V</Text>
               </Block>
-              <Text p size={12}>Solar</Text>
               <Text size={10}>-</Text>
             </Block>
             
@@ -227,7 +226,7 @@ const Status = () => {
         <Block
           flex={0}
           radius={sizes.sm}
-          marginTop={-sizes.l}
+          marginTop={-sizes.sm}
           marginHorizontal="4%">
           <Block
             row
@@ -240,10 +239,18 @@ const Status = () => {
             paddingVertical={sizes.sm}
             renderToHardwareTextureAndroid>
             
-            
+
             <Block align="center">
-              <Text p semibold>Time remaining</Text>
-              <Text h5 semibold>01 hr : 45 min</Text>
+              {/* Battery charging indicator */}
+              {/* <Image
+                height={24}
+                width={24}
+                radius={0}
+                source={assets.batteryCharging}
+                color={colors.icon}
+              /> */}
+              <Text p semibold size={11}>-</Text>
+              <Text h5 semibold>-</Text>
             </Block>
 
             
