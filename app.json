@@ -26,7 +26,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#212121"
-      }
+      },
+      "package": "dk.tinygiants.claytonpower"
     },
     "web": {
       "favicon": "./assets/favicon.png"

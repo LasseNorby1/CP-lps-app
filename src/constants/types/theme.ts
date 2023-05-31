@@ -78,6 +78,7 @@ export interface IThemeProvider {
 export interface ThemeColors {
   text: ColorValue;
   primary: ColorValue;
+  primaryDark: ColorValue;
   secondary: ColorValue;
   tertiary: ColorValue;
   black: ColorValue;
@@ -212,6 +213,8 @@ export interface ThemeIcons {
   solar: ImageSourcePropType;
   status: ImageSourcePropType;
   history: ImageSourcePropType;
+  notifications: ImageSourcePropType;
+  batteryCharging: ImageSourcePropType;
   apple: ImageSourcePropType;
   google: ImageSourcePropType;
   facebook: ImageSourcePropType;
@@ -261,6 +264,7 @@ export interface ThemeAssets {
   background: ImageSourcePropType;
 
   LPS: ImageSourcePropType;
+  LPSNew: ImageSourcePropType;
 
   card1: ImageSourcePropType;
   card2: ImageSourcePropType;

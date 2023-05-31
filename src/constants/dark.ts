@@ -15,16 +15,17 @@ export const COLORS: ThemeColors = {
   // base colors
   /** UI color for #primary */
   primary: '#0072bc',
+  primaryDark: '#005b96',
   /** UI color for #secondary */
   secondary: '#313131', // '#8392AB',
   /** UI color for #tertiary */
   tertiary: '#515151',
 
   // non-colors
-  black: '#212121',
+  black: '#202020',
   white: '#FFFFFF',
 
-  dark: '#171717',
+  dark: '#252525',
   light: '#E9ECEF',
 
   // gray variations
@@ -33,17 +34,17 @@ export const COLORS: ThemeColors = {
 
   // colors variations
   /** UI color for #danger */
-  danger: '#EA0606',
+  danger: '#9D2235',
   /** UI color for #warning */
-  warning: '#FFC107',
+  warning: '#dfa600',
   /** UI color for #success */
   success: '#82D616',
   /** UI color for #info */
   info: '#17C1E8',
 
   /** UI colors for navigation & card */
-  card: '#212121',
-  background: '#212121',
+  card: '#252525',
+  background: '#202020',
 
   /** UI color for shadowColor */
   shadow: '#121212',
@@ -58,7 +59,7 @@ export const COLORS: ThemeColors = {
   switchOff: '#121212',
 
   /** UI color for checkbox icon checked/active color */
-  checkbox: ['#3A416F', '#141727'],
+  checkbox: ['#0072bc', '#0072bc'],
   checkboxIcon: '#FFFFFF',
 
   /** social colors */
@@ -85,13 +86,13 @@ export const GRADIENTS: ThemeGradients = {
   danger: ['#FF667C', '#EA0606'],
 
   light: ['#515151', '#515151'],
-  dark: ['#212121', '#212121'],
+  dark: ['#202020', '#202020'],
 
   white: [String(COLORS.white), '#EBEFF4'],
-  black: [String(COLORS.black), '#212121'],
+  black: [String(COLORS.black), '#202020'],
 
   divider: ['rgba(255,255,255,0)', 'rgba(102, 116, 142, 0.6)'],
-  menu: ['#212121', '#212121'],
+  menu: ['#202020', '#202020'],
 };
 
 export const SIZES: ThemeSizes = {

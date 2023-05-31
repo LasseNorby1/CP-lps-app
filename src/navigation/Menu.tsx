@@ -96,6 +96,7 @@ const DrawerContent = (
     {name: t('screens.register'), to: 'Register', icon: assets.register},
 
     {name: t('screens.settings'), to: 'Settings', icon: assets.settings},
+    // {name: t('screens.notifications'), to: 'Notifications', icon: assets.settings},
     // {name: t('screens.extra'), to: 'Extra', icon: assets.extras},
   ];
 

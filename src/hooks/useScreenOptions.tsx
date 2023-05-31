@@ -52,6 +52,25 @@ export default () => {
             gradient={gradients?.primary}
           />
         {/* <TouchableOpacity
+          style={{marginRight: sizes.m}}
+          onPress={() =>
+            navigation.navigate('Screens', {
+              screen: 'Notifications',
+            })
+          }>
+          <Image source={icons.notifications} radius={0} color={colors.icon} width={20} height={20} />
+          <Block
+            flex={0}
+            right={0}
+            width={sizes.s}
+            height={sizes.s}
+            radius={sizes.xs}
+            position="absolute"
+            gradient={gradients?.danger}
+          />
+        </TouchableOpacity> */}
+        
+        {/* <TouchableOpacity
           style={{marginRight: sizes.sm}}
           onPress={() =>
             navigation.navigate('Screens', {
@@ -68,7 +87,8 @@ export default () => {
             position="absolute"
             gradient={gradients?.primary}
           />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
+        {/* 
         <TouchableOpacity
           onPress={() =>
             navigation.navigate('Screens', {

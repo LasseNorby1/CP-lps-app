@@ -44,6 +44,8 @@ export const ICONS: ThemeIcons = {
   register: require('../assets/icons/2x/register.png'),
   settings: require('../assets/icons/2x/settings.png'),
   articles: require('../assets/icons/2x/articles.png'),
+  notifications: require('../assets/icons/2x/notifications.png'),
+  batteryCharging: require('../assets/icons/2x/battery-charging.png'),
 
 
   apple: require('../assets/icons/apple.png'),
@@ -92,6 +94,7 @@ export const ASSETS: ThemeAssets = {
   background: require('../assets/images/background.png'),
 
   LPS: require('../assets/images/LPS2-Transparent.png'),
+  LPSNew: require('../assets/images/LPS2-new3.jpg'),
 
   // cards
   card1: require('../assets/images/card1.png'),
